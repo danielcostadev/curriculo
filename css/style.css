@@ -7,12 +7,20 @@ h1{
     font-size: 50px;
 }
 
+.secoes{
+    background-color: #ccc;
+    border-bottom: 1px solid rgb(12, 12, 12);
+    padding: 5px;
+    margin: 10px 0;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
 #curriculo{
     margin: 0 auto;
     width: 800px;
     padding: 50px;
-    border: 2px solid #000;
-    border-radius: 10px;
+ 
 }
 
 .info{
