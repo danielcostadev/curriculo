@@ -1,0 +1,90 @@
+body,p,h1,h2{
+    margin: 0;
+    font-family: Roboto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+#curriculo{
+    margin: 0 auto;
+    width: 800px;
+    padding: 50px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.info{
+    background-color: #fff;
+    padding: 0 20px;
+    height: 180px;
+    border-bottom: 2px solid #000;
+}
+
+.info p{
+    padding: 3px 0 0 0;
+    
+}
+
+.info p a{
+    color: #444;
+    text-decoration: none;
+}
+
+.info p a:hover{
+    color: blue;
+}
+
+.info img{
+    height: 170px;
+    border-radius: 50%;
+    float: left;
+}
+
+.principal{
+    background-color: #fff;
+    padding: 20px;
+}
+
+.principal p {
+    padding: 5px 30px 10px 30px;
+
+}
+
+
+.destacado{
+    font-weight: bold;
+}
+
+/* Responsividade para telas pequenas */
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    #curriculo {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .info {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .info img {
+        height: 100px;
+        float: none;
+        margin-bottom: 15px;
+    }
+
+    .principal {
+        padding: 10px;
+    }
+
+    .principal p {
+        padding: 5px 10px 10px 10px;
+    }
+}
